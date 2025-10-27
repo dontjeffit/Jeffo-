@@ -36,7 +36,7 @@ const About = () => {
 
         <Box width={{ base: "100%", md: "46%" }}>
           <p className="text-white" style={{ marginBottom: "15px" }}>
-            I'm Fasasi Oluwafoyinkanla John, proficient in both front-end and
+            I'm Jefferson Anu-John, proficient in both front-end and
             back-end development i.e I work on both user interface(UI) and the
             server side of a web application
           </p>
@@ -48,7 +48,7 @@ const About = () => {
           </p>
 
           <p className="text-fade-white" style={{ marginBottom: "10px" }}>
-            I'm also a 100l Microbiology student at University of Lagos.
+            I'm also a 400l Computer Science student at University of Lagos.
           </p>
           <p className="text-white">
             Got a project? Hire me and enjoy quality & excellence in delivery.
