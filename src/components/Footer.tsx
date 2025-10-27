@@ -8,7 +8,7 @@ const Footer = () => {
       <Box className="page-alignment cc-container">
         <SimpleGrid columns={{ base: 1, sm: 2, md: 3 }} spacing={10}>
           <Box>
-            <h2 className="text-white">Foyin</h2>
+            <h2 className="text-white">Jefferson</h2>
             <p className="text-blue">Fullstack Web Developer</p>
           </Box>
           <Flex flexWrap={"wrap"} gap={"50px"} height={"min-content"}>

@@ -12,7 +12,7 @@ const Intro = ({ base }: IntroProps) => {
       display={{ base: base ? "block" : "none", md: base ? "none" : "block" }}
       width={{ base: "100%", md: "46%" }}
     >
-      <TypingText title="Hi, I'm Foyin"/>
+      <TypingText title="Hi, I'm Jefferson"/>
       <h4 className="text-blue medium-text">A Fullstack Web Developer</h4>
       <p style={{ marginTop: "15px" }} className="text-fade-white">
         I am highly skilled at building responsive web applications and robust
