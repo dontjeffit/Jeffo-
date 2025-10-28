@@ -44,7 +44,7 @@ const Home = () => {
               borderRadius={"60%"}
               alt="picture"
               objectFit={"cover"}
-              src="https://res.cloudinary.com/dbxvk3apv/image/upload/v1697842761/Metaversus/WhatsApp_Image_2023-10-20_at_12.58.48_fitml4.webp"
+              src="/images/myphoto.jpg"
             />
           </Box>
         </Flex>

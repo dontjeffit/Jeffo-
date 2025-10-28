@@ -44,7 +44,7 @@ const Extra = () => {
         </p>
         <Flex justify={{ base: "center", md: "start" }}>
           <a
-            href="https://wa.link/b5zn3u"
+            href="mailto:anujohnjeff@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >

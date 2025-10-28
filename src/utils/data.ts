@@ -52,17 +52,17 @@ export const socials = [
   {
     id: 1,
     icon: AiOutlineWhatsApp,
-    link: "https://wa.link/b5zn3u",
+    link: "https://wa.link/f93b5l",
   },
   {
     id: 2,
     icon: AiOutlineTwitter,
-    link: "https://x.com/foyinjohn",
+    link: "https://x.com/dontjeffit",
   },
   {
     id: 3,
     icon: AiOutlineGithub,
-    link: "https://github.com/Fasasifoyin",
+    link: "https://github.com/dontjeffit",
   },
   {
     id: 4,

@@ -77,7 +77,7 @@ const Navbar = () => {
           boxShadow={{ base: "0 -3px 0px rgba(0, 0, 0, 0.1)", md: "none" }}
         >
           <Link to="/" spy={true} smooth={true} duration={500} offset={-80}>
-            <p className="text-white fw-bold cursor">Foyin</p>
+            <p className="text-white fw-bold cursor">Jefferson</p>
           </Link>
           <Links />
           <Icon
