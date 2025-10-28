@@ -2,6 +2,7 @@ import { Box, Flex, Image, Icon } from "@chakra-ui/react";
 import Headers from "../Headers";
 import { AiOutlineDownload } from "react-icons/ai";
 
+
 const About = () => {
   return (
     <Box id="about" mb={"100px"} className="cc-container page-alignment">
@@ -29,7 +30,7 @@ const About = () => {
               alt="Picture"
               objectFit={"cover"}
               borderRadius={"50%"}
-              src="https://res.cloudinary.com/dbxvk3apv/image/upload/v1697877950/Metaversus/WhatsApp_Image_2023-10-20_at_22.44.13_w8gcfv.webp"
+              src="/images/mypic.jpg"
             />
           </Box>
         </Box>
