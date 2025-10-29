@@ -23,7 +23,7 @@ const Intro = ({ base }: IntroProps) => {
         level?
       </p>
       <a
-        href="https://wa.link/b5zn3u"
+        href="https://wa.link/f93b5l"
         target="_blank"
         rel="noopener noreferrer"
       >

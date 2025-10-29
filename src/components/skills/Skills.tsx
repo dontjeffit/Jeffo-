@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Box, Flex, Icon, Image } from "@chakra-ui/react";
+import { Box, Flex, Icon} from "@chakra-ui/react";
 import Headers from "../Headers";
 import {
   MdDataObject,
@@ -67,9 +67,6 @@ const Skills = () => {
           <Tech data={backend} show={showBack} />
         </Box>
       </Flex>
-      <Box width={"100%"} maxW={"550px"} margin={"0 auto"} h={{base:"300px", sm:"400px"}}>
-        <Image w={"100%"} h={"100%"} objectFit={"cover"} src="https://res.cloudinary.com/dbxvk3apv/image/upload/v1697889018/Languages/WhatsApp_Image_2023-10-21_at_01.45.28_zpgaxr.webp"/>
-      </Box>
     </Box>
   );
 };

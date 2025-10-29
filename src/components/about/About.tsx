@@ -55,8 +55,8 @@ const About = () => {
             Got a project? Hire me and enjoy quality & excellence in delivery.
           </p>
           <a
-            href="OLUWAFOYINKANLA FASASI.pdf"
-            download="OLUWAFOYINKANLA FASASI.pdf"
+            href="JEFFERSON ANU-JOHN CV.pdf"
+            download="JEFFERSON ANU-JOHN CV.pdf"
           >
             <Flex
               mt={"25px"}

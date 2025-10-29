@@ -67,7 +67,7 @@ export const socials = [
   {
     id: 4,
     icon: AiOutlineLinkedin,
-    link: "",
+    link: "https://www.linkedin.com/in/jefferson-anu-john-912235293/",
   },
 ];
 
@@ -138,38 +138,38 @@ export const backend = [
 ];
 
 export const portfolio = [
-  {
+    {
     id: 3,
+    image:
+      "/images/backyard.png",
+    name: "Backyard",
+    about: "A marketplace for buying inspected and verified cars",
+    demoLink: "https://www.checkbackyard.com/",
+  },
+    {
+    id: 2,
+    image:
+      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1686920355/Languages/Movie_Image_kubq27.webp",
+    name: "The Movie DB",
+    about: "A frontend project. Consumed api from an external source.",
+    demoLink: "https://foyindevflix.netlify.app/",
+  },
+  {
+    id: 1,
+    image:
+      "/images/Sayfood.png",
+    name: "SayFood",
+    about:
+      "Full stack project with JWT authentication. Also used redux for state management across app",
+    demoLink: "https://www.sayfoods.co/",
+  },
+  {
+    id: 0,
     image:
       "https://res.cloudinary.com/dbxvk3apv/image/upload/v1697905097/Languages/Screenshot_22_jphp2p.webp",
     name: "Nairaland Clone",
     about:
       "This is a clone of the popular Nairaland Forum. It's a fullstack project. Responsive in all device",
     demoLink: "https://nairaland-clone-client.vercel.app/",
-  },
-  {
-    id: 2,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1697905435/Languages/Screenshot_23_uw5usk.webp",
-    name: "Shome",
-    about:
-      "Full stack project with JWT authentication. Also used redux for state management across app",
-    demoLink: "https://myshomeecommerce.netlify.app/",
-  },
-  {
-    id: 1,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1686920355/Languages/Movie_Image_kubq27.webp",
-    name: "MOVIE BOX",
-    about: "A frontend project. Consumed api from an external source.",
-    demoLink: "https://myplaymovie.netlify.app/",
-  },
-  {
-    id: 0,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1697905900/Languages/Screenshot_24_jwch64.webp",
-    name: "PORTFOLIO",
-    about: "A portfolio project made for a client. Responsive typography",
-    demoLink: "https://abdulhafeez-kekere-ekun.netlify.app/",
   },
 ];
