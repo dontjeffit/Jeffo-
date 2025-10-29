@@ -160,7 +160,7 @@ export const portfolio = [
       "/images/Sayfood.png",
     name: "SayFood",
     about:
-      "Full stack project with JWT authentication. Also used redux for state management across app",
+      "Full-stack food delivery platform built with JWT authentication, Redux, and Paystack integration.",
     demoLink: "https://www.sayfoods.co/",
   },
   {
