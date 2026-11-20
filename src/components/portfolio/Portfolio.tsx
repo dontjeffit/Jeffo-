@@ -47,7 +47,7 @@ const Portfolio = () => {
         <Box
           className="scroller snaps scrollbody"
           ref={elementRef}
-          width={"80%"}
+          width={"100%"}
           overflowX={"scroll"}
           py={"30px"}
           boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
@@ -78,6 +78,9 @@ const Portfolio = () => {
                   {each.name}
                 </h4>
                 <p className="text-fade-white">{each.about}</p>
+                <Box mt="15px">
+                  <p className="text-fade-white small-text">{each.info}</p>
+                </Box>
                 <a
                   href={each.demoLink}
                   target="_blank"

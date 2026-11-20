@@ -1,4 +1,4 @@
-import { Flex, Box, Image } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import { AnimatePresence, motion } from "framer-motion";
 import { skillsAnimation } from "../../utils/framerVariants";
 
@@ -6,7 +6,6 @@ type TechProps = {
   data: {
     id: number;
     tech: string;
-    image: string;
   }[];
   show: boolean;
 };
@@ -29,22 +28,11 @@ const Tech = ({ data, show }: TechProps) => {
               initial="initial"
               animate="animate"
               exit="exit"
-              justify={"space-between"}
               align={"center"}
-              gap={"10px"}
               borderBottom={"1px solid #576ee0"}
               pb={"10px"}
             >
               <p>{each.tech}</p>
-              <Box w={"40px"} h={"40px"}>
-                <Image
-                  w={"100%"}
-                  h={"100%"}
-                  alt={`${each.tech} logo`}
-                  objectFit={"cover"}
-                  src={each.image}
-                />
-              </Box>
             </Flex>
           )}
         </AnimatePresence>

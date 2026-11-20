@@ -12,14 +12,14 @@ const Intro = ({ base }: IntroProps) => {
       display={{ base: base ? "block" : "none", md: base ? "none" : "block" }}
       width={{ base: "100%", md: "46%" }}
     >
-      <TypingText title="Hi, I'm Jefferson"/>
-      <h4 className="text-blue medium-text">A Fullstack Web Developer</h4>
+      <TypingText title="Hi, I'm Jefferson" />
+      <h4 className="text-blue medium-text">A Business & Sales Professional</h4>
       <p style={{ marginTop: "15px" }} className="text-fade-white">
-        I am highly skilled at building responsive web applications and robust
-        backend architecture
+        I am passionate about driving business growth through sales, strategic
+        partnerships, and understanding customer needs.
       </p>
       <p style={{ marginTop: "20px" }}>
-        Want to take your <span className="text-blue">brand</span> to the next
+        Want to take your <span className="text-blue">business</span> to the next
         level?
       </p>
       <a

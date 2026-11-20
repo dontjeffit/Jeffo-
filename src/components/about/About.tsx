@@ -37,26 +37,28 @@ const About = () => {
 
         <Box width={{ base: "100%", md: "46%" }}>
           <p className="text-white" style={{ marginBottom: "15px" }}>
-            I'm Jefferson Anu-John, proficient in both front-end and
-            back-end development i.e I work on both user interface(UI) and the
-            server side of a web application
+            I'm Jefferson Anu-John, a stereotypical Igbo man. I love doing
+            business, and I love selling things to people, especially
+            unconventional products and ideas.
           </p>
 
           <p className="text-fade-white" style={{ marginBottom: "25px" }}>
-            I build visually appealing, responsive and mobile-friendly websites
-            with modern tools and also develop highly scalable, robust and
-            efficient server applications using powerful tools{" "}
+            I work across business development, sales, growth, analytics and
+            partnerships. I enjoy finding opportunities, understanding what
+            people need, positioning solutions, building relationships, and
+            turning insights into business decisions.{" "}
           </p>
 
           <p className="text-fade-white" style={{ marginBottom: "10px" }}>
-            I'm also a 400l Computer Science student at University of Lagos.
+            Whether I’m building a business or selling a product, I embrace the
+            discomfort of pursuing excellence.
           </p>
           <p className="text-white">
-            Got a project? Hire me and enjoy quality & excellence in delivery.
+            Looking to grow your business? let's work together.
           </p>
           <a
-            href="JEFFERSON ANU-JOHN CV.pdf"
-            download="JEFFERSON ANU-JOHN CV.pdf"
+            href="/images/Jefferson Anu-John CV.pdf"
+            download="Jefferson Anu-John CV.pdf"
           >
             <Flex
               mt={"25px"}

@@ -9,6 +9,7 @@ import {
   AiOutlineLinkedin,
 } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
+import { info } from "sass";
 
 export const links = [
   {
@@ -74,102 +75,84 @@ export const socials = [
 export const frontEnd = [
   {
     id: 1,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1684088223/Languages/html5-icon-13_qvhfra.webp",
-    tech: "HTML",
+    tech: "Business Development",
   },
   {
     id: 2,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1684087181/Languages/800px-CSS3_logo.svg_elztw4.webp",
-    tech: "CSS",
+    tech: "B2B Sales",
   },
   {
     id: 3,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1686869514/Languages/sw8zlvflfasdznh5qzen.jpg",
-    tech: "BOOTSTRAP",
+    tech: "Lead Generation & Prospecting",
   },
   {
     id: 4,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1697886110/Languages/dh6mqxthkyzg9jiz67gh.webp",
-    tech: "CHAKRA UI",
+    tech: "Client Acquisition",
   },
   {
     id: 5,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1684087376/Languages/800px-JavaScript-logo_ayuz4z.webp",
-    tech: "JAVASCRIPT",
+    tech: "Sales Strategy & Execution",
   },
   {
     id: 6,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1697886036/Languages/typescript_pxdwpo.webp",
-    tech: "TYPESCRIPT",
+    tech: "Negotiation & Communication",
   },
   {
     id: 7,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1684087456/Languages/2300px-React-icon.svg_q0zfg2.webp",
-    tech: "REACT",
+    tech: "Account Management",
   },
 ];
 
 export const backend = [
   {
     id: 1,
-    tech: "NODEJS",
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1684087529/Languages/nodejs-logo-FBE122E377-seeklogo.com_temdc8.webp",
+    tech: "Business Intelligence",
   },
   {
     id: 2,
-    tech: "EXPRESSJS",
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1684088080/Languages/2e5b0058b2d38158b21439fe06e9b8fabe3cb139_byfmpo.webp",
+    tech: "Sales Analytics",
   },
   {
     id: 3,
-    tech: "MONGODB",
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1684087775/Languages/free-mongodb-3629020-3030245_pwebas.webp",
+    tech: "Data Analysis",
+  },
+  {
+    id: 4,
+    tech: "Microsoft Excel",
+  },
+  {
+    id: 5,
+    tech: "Power BI",
+  },
+  {
+    id: 6,
+    tech: "MySQL",
   },
 ];
 
 export const portfolio = [
-    {
+  {
     id: 3,
-    image:
-      "/images/backyard.png",
-    name: "Backyard",
-    about: "A marketplace for buying inspected and verified cars",
-    demoLink: "https://www.checkbackyard.com/",
+    image: "/images/bakyaad.png",
+    name: "Bakyaad",
+    about: "An on-demand platform for buying inspected and verified cars",
+    info: "Secured partnerships with Request Car, Adrenaline Lounge, and Papiees Meatro to host automotive community events and grow brand engagement.",
+    demoLink: "https://www.bakyaad.com/",
   },
-    {
+  {
     id: 2,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1686920355/Languages/Movie_Image_kubq27.webp",
-    name: "The Movie DB",
-    about: "A frontend project. Consumed api from an external source.",
-    demoLink: "https://foyindevflix.netlify.app/",
+    image: "/images/stocksense.png",
+    name: "Stocksense",
+    about: "A multi-tenant inventory and business management system.",
+    info: "Researched and repositioned StockSense for the Nigerian SME market, pitched directly to business owners, converted early adopters, and acquired its first 100 users.",
+    demoLink: "https://www.stocksense.one/",
   },
   {
     id: 1,
-    image:
-      "/images/Sayfood.png",
-    name: "SayFood",
-    about:
-      "Full-stack food delivery platform built with JWT authentication, Redux, and Paystack integration.",
-    demoLink: "https://www.sayfoods.co/",
-  },
-  {
-    id: 0,
-    image:
-      "https://res.cloudinary.com/dbxvk3apv/image/upload/v1697905097/Languages/Screenshot_22_jphp2p.webp",
-    name: "Nairaland Clone",
-    about:
-      "This is a clone of the popular Nairaland Forum. It's a fullstack project. Responsive in all device",
-    demoLink: "https://nairaland-clone-client.vercel.app/",
+    image: "/images/chowdeck.png",
+    name: "ChowDeck",
+    about: "An on-demand food delivery platform and super app.",
+    info: "Prospected and onboarded Lagos vendors onto the Chowdeck platform, bringing on businesses that generated approximately ₦1M in revenue.",
+    demoLink: "https://www.chowdeck.com/",
   },
 ];

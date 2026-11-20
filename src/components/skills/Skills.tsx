@@ -2,12 +2,11 @@ import { useState } from "react";
 import { Box, Flex, Icon} from "@chakra-ui/react";
 import Headers from "../Headers";
 import {
-  MdDataObject,
   MdKeyboardArrowUp,
   MdKeyboardArrowDown,
 } from "react-icons/md";
-import { GiServerRack } from "react-icons/gi";
 import Tech from "./Tech";
+import { MdHandshake, MdAnalytics } from "react-icons/md";
 import { frontEnd, backend } from "../../utils/data";
 
 const Skills = () => {
@@ -32,8 +31,10 @@ const Skills = () => {
             gap={"20px"}
           >
             <Flex align={"center"} gap={"10px"}>
-              <Icon className="text-blue" as={MdDataObject} boxSize={"40px"} />
-              <h5 className="medium-text text-white">Frontend Development</h5>
+              <Icon className="text-blue" as={MdHandshake} boxSize={"40px"} />
+              <h5 className="medium-text text-white">
+                Sales & Business Development
+              </h5>
             </Flex>
             <Icon
               className="text-blue cursor"
@@ -53,9 +54,11 @@ const Skills = () => {
             gap={"20px"}
           >
             <Flex align={"center"} gap={"10px"}>
-              <Icon className="text-blue" as={GiServerRack} boxSize={"40px"} />
+              <Icon className="text-blue" as={MdAnalytics} boxSize={"40px"} />
 
-              <h5 className="medium-text text-white">Backend Development</h5>
+              <h5 className="medium-text text-white">
+                Business Intelligence & Analytics
+              </h5>
             </Flex>
             <Icon
               className="text-blue cursor"
