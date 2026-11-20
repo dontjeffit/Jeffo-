@@ -9,7 +9,6 @@ import {
   AiOutlineLinkedin,
 } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
-import { info } from "sass";
 
 export const links = [
   {
